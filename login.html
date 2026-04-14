@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ReservedU | Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div id="authModal" class="modal-overlay">
+  <div class="auth-card" id="authCard">
+  
+    <h2>ReservedU Hub</h2>
+    <p>Discover & reserve amazing events</p>
+	
+    <div id="authFormContainer">
+      <div class="input-group">
+	  
+        <input type="text" id="authEmail" placeholder="Email address" autocomplete="email">
+      
+	  </div>
+      <div class="input-group">
+	  
+        <input type="password" id="authPassword" placeholder="Password" autocomplete="current-password">
+      
+	  </div>
+	  
+      <button id="submitAuthBtn" class="btn-primary">Log In</button>
+	  
+      <button id="guestBtn" class="btn-secondary">Continue as Guest</button>
+	  
+      <div class="switch-text" id="switchAuthText">Don't have an account? <span id="toggleMode">Sign up</span></div>
+    </div>
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
